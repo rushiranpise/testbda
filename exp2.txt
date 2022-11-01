@@ -1,0 +1,67 @@
+Ozone concentration in air 
+
+barplot(airquality$Ozone, 
+
+        main = 'Ozone Concenteration in air', 
+
+        xlab = 'ozone levels', horiz = TRUE)
+Vertical Bar Plot for  
+# Ozone concentration in air 
+
+barplot(airquality$Ozone, main = 'Ozone Concenteration in air',  
+
+        xlab = 'ozone levels', col ='blue', horiz = FALSE)
+Histogram for Maximum Daily Temperature 
+
+data(airquality) 
+
+  
+
+hist(airquality$Temp, main ="La Guardia Airport's\ 
+
+Maximum Temperature(Daily)", 
+
+    xlab ="Temperature(Fahrenheit)", 
+
+    xlim = c(50, 125), col ="yellow", 
+
+    freq = TRUE)
+# Box plot for average wind speed 
+
+data(airquality) 
+
+  
+
+boxplot(airquality$Wind, main = "Average wind speed\ 
+at La Guardia Airport", 
+
+        xlab = "Miles per hour", ylab = "Wind", 
+
+        col = "orange", border = "brown", 
+
+        horizontal = TRUE, notch = TRUE)
+an Air Quality Parameter 
+
+boxplot(airquality[, 0:4],  
+
+        main ='Box Plots for Air Quality Parameters')
+# Scatter plot for Ozone Concentration per month 
+
+data(airquality) 
+
+  
+
+plot(airquality$Ozone, airquality$Month, 
+
+     main ="Scatterplot Example", 
+
+    xlab ="Ozone Concentration in parts per billion", 
+
+    ylab =" Month of observation ", pch = 19)
+Ozone	Solar R.	Wind	Temp	Month	Day
+41	190	7.4	67	5	1
+36	118	8.0	72	5	2
+12	149	12.6	74	5	3
+18	313	11.5	62	5	4
+NA	NA	14.3	56	5	5
+28	NA	14.9	66	5	6
