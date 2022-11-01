@@ -1,0 +1,15 @@
+hbase shell
+
+
+create 'employee', 'pers', 'priv'
+
+put 'employee', 1 , 'pers:name', 'xyz'
+put 'employee', 1, 'pers:id', 68
+put 'employee', 1, 'priv:dept', 'cse'
+
+get 'employee', 1
+
+scan 'employee'
+
+disable 'employee'
+drop 'employee'
