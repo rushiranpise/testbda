@@ -1,0 +1,30 @@
+To access the HBase shell, you have to navigate to the HBase home folder.
+
+cd /usr/localhost/
+
+cd Hbase
+
+You can start the HBase interactive shell using “hbase shell” command as shown 
+
+below.
+
+./bin/hbase shell
+
+If you have successfully installed HBase in your system, then it gives you the HBase shell 
+
+prompt as shown below.
+
+HBase Shell; enter 'help<RETURN>' for list of supported commands.
+
+Type "exit<RETURN>" to leave the HBase Shell
+
+Version 0.94.23, rf42302b28aceaab773b15f234aa8718fff7eea3c, Wed 
+
+Aug 27 00:54:09 UTC 2014
+exit the interactive shell command at any moment, type exit or use <ctrl+c>. 
+
+hbase(main):001:0> list
+
+When you type this command, it gives you the following output.
+
+hbase(main):001:0> list
