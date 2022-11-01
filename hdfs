@@ -1,0 +1,9 @@
+HDFS commands
+
+hdfs dfs -help ls
+
+hdfs dfs -mkdir Xyz
+
+Hdfs dfs -ls xyz
+
+hdfs dfs -ls -R /
